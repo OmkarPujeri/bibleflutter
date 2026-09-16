@@ -1,0 +1,10 @@
+# Flutter
+.dart_tool/
+.packages
+build/
+.flutter-plugins*
+*.iml
+.idea/
+# Generated keys
+*.jks
+.env

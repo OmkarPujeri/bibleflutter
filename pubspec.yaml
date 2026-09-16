@@ -1,0 +1,57 @@
+name: bible_connect
+description: "Bible Connect — read the Word, find the verse for how you feel."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private projects.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots and separated by a +.
+# Build numbers are used as an integer build number.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^3.4.2
+  shared_preferences: ^2.3.2
+  google_fonts: ^8.2.1
+  flutter_animate: ^4.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/bible/index.json
+    - assets/bible/books/
+    - assets/mood/
+    # Bundled fonts: google_fonts finds these by filename (e.g.
+    # CrimsonPro-Regular.ttf) in the asset manifest and loads them from the
+    # bundle instead of the network — the app is fully offline.
+    - assets/fonts/
+
+  # Same files registered as engine font families. google_fonts styles
+  # request 'CrimsonPro'/'Inter' (their fontFamilyFallback), and 'Crimson
+  # Pro'/'Inter' cover direct fontFamily use — both spellings resolve.
+  fonts:
+    - family: Crimson Pro
+      fonts:
+        - asset: assets/fonts/CrimsonPro-Regular.ttf
+        - asset: assets/fonts/CrimsonPro-Medium.ttf
+          weight: 500
+    - family: CrimsonPro
+      fonts:
+        - asset: assets/fonts/CrimsonPro-Regular.ttf
+        - asset: assets/fonts/CrimsonPro-Medium.ttf
+          weight: 500
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Regular.ttf
+        - asset: assets/fonts/Inter-Medium.ttf
+          weight: 500
