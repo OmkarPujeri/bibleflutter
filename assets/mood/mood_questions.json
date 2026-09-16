@@ -1,0 +1,147 @@
+{
+  "veryUnpleasant": [
+    {
+      "id": "vu_1",
+      "question": "Right now, which feeling is strongest in you?",
+      "options": [
+        {"text": "I feel hopeless, like there's no way forward.", "category": "despair"},
+        {"text": "I am burning with anger at someone or something.", "category": "anger"},
+        {"text": "I am carrying a heavy sadness.", "category": "grief"}
+      ]
+    },
+    {
+      "id": "vu_2",
+      "question": "What does this moment feel like inside?",
+      "options": [
+        {"text": "Dark and overwhelming — I can't see a way out.", "category": "despair"},
+        {"text": "Unfair. I keep replaying what was done.", "category": "anger"},
+        {"text": "Empty. I miss someone or something I've lost.", "category": "grief"}
+      ]
+    },
+    {
+      "id": "vu_3",
+      "question": "What do you need most from God's Word right now?",
+      "options": [
+        {"text": "A reason to keep hoping.", "category": "despair"},
+        {"text": "Help letting go of this anger.", "category": "anger"},
+        {"text": "Comfort for this ache.", "category": "grief"}
+      ]
+    }
+  ],
+  "unpleasant": [
+    {
+      "id": "u_1",
+      "question": "Which describes you best right now?",
+      "options": [
+        {"text": "I'm anxious about what's coming.", "category": "anxiety"},
+        {"text": "I feel discouraged and worn down.", "category": "discouragement"},
+        {"text": "I've been hurt by someone.", "category": "hurt"}
+      ]
+    },
+    {
+      "id": "u_2",
+      "question": "What's weighing on you?",
+      "options": [
+        {"text": "Worries I can't switch off.", "category": "anxiety"},
+        {"text": "Effort that isn't paying off.", "category": "discouragement"},
+        {"text": "Words or actions that wounded me.", "category": "hurt"}
+      ]
+    },
+    {
+      "id": "u_3",
+      "question": "What would help most?",
+      "options": [
+        {"text": "Peace for a restless mind.", "category": "anxiety"},
+        {"text": "Strength to keep going.", "category": "discouragement"},
+        {"text": "Help to forgive and heal.", "category": "hurt"}
+      ]
+    }
+  ],
+  "neutral": [
+    {
+      "id": "n_1",
+      "question": "Something is stirring — what is it?",
+      "options": [
+        {"text": "I'm searching for something more.", "category": "searching"},
+        {"text": "I feel restless and can't settle.", "category": "restlessness"},
+        {"text": "I have doubts I can't shake.", "category": "doubt"}
+      ]
+    },
+    {
+      "id": "n_2",
+      "question": "Which is closest to your heart right now?",
+      "options": [
+        {"text": "I want to find God.", "category": "searching"},
+        {"text": "I need calm and stillness.", "category": "restlessness"},
+        {"text": "I have honest questions.", "category": "doubt"}
+      ]
+    },
+    {
+      "id": "n_3",
+      "question": "What are you looking for?",
+      "options": [
+        {"text": "Direction and meaning.", "category": "searching"},
+        {"text": "Rest for my soul.", "category": "restlessness"},
+        {"text": "Faith that holds up.", "category": "doubt"}
+      ]
+    }
+  ],
+  "pleasant": [
+    {
+      "id": "p_1",
+      "question": "What's the source of this good feeling?",
+      "options": [
+        {"text": "I'm grateful for what I have.", "category": "gratitude"},
+        {"text": "I feel hopeful about what's ahead.", "category": "hope"},
+        {"text": "I'm simply happy right now.", "category": "joy"}
+      ]
+    },
+    {
+      "id": "p_2",
+      "question": "Which best fits?",
+      "options": [
+        {"text": "I want to say thank you.", "category": "gratitude"},
+        {"text": "Good things seem possible again.", "category": "hope"},
+        {"text": "My heart is light.", "category": "joy"}
+      ]
+    },
+    {
+      "id": "p_3",
+      "question": "How do you want to respond?",
+      "options": [
+        {"text": "Count my blessings.", "category": "gratitude"},
+        {"text": "Hold on to this hope.", "category": "hope"},
+        {"text": "Celebrate and enjoy it.", "category": "joy"}
+      ]
+    }
+  ],
+  "veryPleasant": [
+    {
+      "id": "vp_1",
+      "question": "What fills you most right now?",
+      "options": [
+        {"text": "I want to praise God.", "category": "praise"},
+        {"text": "I feel deeply content.", "category": "contentment"},
+        {"text": "I feel loved, or full of love.", "category": "love"}
+      ]
+    },
+    {
+      "id": "vp_2",
+      "question": "Which is truest?",
+      "options": [
+        {"text": "God has been so good to me.", "category": "praise"},
+        {"text": "I have peace with where I am.", "category": "contentment"},
+        {"text": "Love is overwhelming my heart.", "category": "love"}
+      ]
+    },
+    {
+      "id": "vp_3",
+      "question": "What do you want to carry into today?",
+      "options": [
+        {"text": "A heart of worship.", "category": "praise"},
+        {"text": "Grateful sufficiency — enough.", "category": "contentment"},
+        {"text": "More love for the people around me.", "category": "love"}
+      ]
+    }
+  ]
+}
