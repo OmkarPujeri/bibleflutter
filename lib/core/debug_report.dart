@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 
-/// Fail-fast in debug, silent-safe in release (PRD §5.5).
+/// Fail-fast in debug, silent-safe in release.
 ///
 /// Reports a caught-and-recovered error to Flutter's error console so it is
 /// loud in debug builds and test runs, while compiling to a no-op in release

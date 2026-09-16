@@ -181,7 +181,7 @@ class MoodController extends Notifier<MoodState> {
   }
 
   /// Level ∩ category, random pick; fallback = random from the whole level.
-  /// Never throws — a mapping miss degrades, it doesn't error (PRD §5.5).
+  /// Never throws — a mapping miss degrades, it doesn't error.
   Future<VerseRef?> _pickVerse(MoodLevel level, String category) async {
     final matching = await _repo.versesForCategory(level, category);
     if (matching.isNotEmpty) {

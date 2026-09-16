@@ -199,7 +199,7 @@ void main() {
         container.read(readerControllerProvider.notifier).initialized, isFalse);
   });
 
-  // PRD §5.6: paragraph mode must be tested alongside verse-per-line mode.
+  // Paragraph mode must be tested alongside verse-per-line mode.
 
   /// The spans of [richText] whose style carries [background], keyed by
   /// their (trimmed) text.
